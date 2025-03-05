@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Please submit this form</h2>
+    <form action="#">
+      <!-- getting first name -->
+      <label for="first_name">First Name</label> <br />
+      <input type="text" id="first_name" /> <br /><br />
+
+      <label for="last_name">Last Name</label> <br />
+      <input type="text" id="last_name" /> <br /><br />
+
+      <label for="email">Email</label> <br />
+      <input type="email" id="email" /> <br /><br />
+
+      <label for="password">Password</label> <br />
+      <input type="password" id="password" /> <br /><br />
+
+      <label for="age">Age</label> <br />
+      <input type="number" name="" id="age" /> <br /><br />
+
+      <label for="dob">Date of Birth</label> <br />
+      <input type="date" name="" id="dob" /> <br /><br />
+
+      <label for="color">Select favourite color</label> <br />
+      <input type="color" name="" id="color" /> <br />
+      <br />
+
+      <label for="gender">Gender</label> <br />
+      <input type="radio" name="gender" /> Male <br />
+      <input type="radio" name="gender" /> Female <br />
+      <input type="radio" name="gender" /> Custom <br />
+      <br />
+
+      <label for="subject">Please select your subject</label> <br />
+      <input type="checkbox" /> English <br />
+      <input type="checkbox" /> Bangla <br />
+      <input type="checkbox" /> Math <br />
+      <input type="checkbox" /> Science <br />
+      <input type="checkbox" /> Biology <br />
+      <br />
+
+      <label for="country">Please select your country</label><br />
+      <select name="country" id="country">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Nepal">Nepal</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="description">Write your details</label><br />
+      <textarea name="" id="description"></textarea>
+
+      <input type="hidden" name="hidden" /> <br /><br />
+
+      <input type="submit" value="Submit" />
+      <input
+        type="image"
+        src="data:image/png;base64,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"
+        alt=""
+      />
+    </form>
+
+    <div style="height: 100px"></div>
+  </body>
+</html>
