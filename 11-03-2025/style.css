@@ -1,0 +1,143 @@
+
+
+.myelement{
+    width:500px;
+    height:200px;
+    border:1px solid red;
+ }
+ .myelement{
+    border-width:2px;
+ }
+ .myclass{
+    font-size:24px;
+ }
+ .myschool{
+    font-size:25px;
+ }
+ .mycollege{
+    font-size:27px;
+ }
+ .mychoice{
+    font-size:29px;
+ }
+ .myname{
+    font-size:30px;
+ }
+ .myvillage{
+    font-size:16px;
+ }
+ .new{
+    font-size:18px;
+ }
+ .myuser{
+    font-size:20px;
+ }
+.mygarden{
+    font-size:26px;
+}
+.normal{
+    font-size:15px;
+}
+#box{
+    background-color: aqua!important;
+}
+.normal-box{
+    width:100px;
+    height:100px;
+    background-color:brown!important;
+}
+
+
+.flag{
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-box{
+    width: 100px;
+    height: 100px;
+    background-color: red!important;
+    border-radius: 50%; 
+}
+.flage{
+    margin-top:40px;
+    width:400px;
+    height:200px;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+.red-box{
+    width:100px;
+    height:100px;
+    background-color: red!important;
+    border-radius: 50;
+
+}
+
+
+
+.container{
+   border: 1px solid red;
+}
+
+/* .container > div > div {
+   border: 1px solid blue
+} */
+
+.child1{
+   border: 1px solid blue;
+}
+
+ul{
+   border: 1px solid rgb(0, 52, 97);
+}
+
+ul li {
+   color: red;
+}
+
+ul li a{
+   color: indigo;
+}
+
+.service-list li{
+   background-color: #ddd;
+   margin-bottom: 5px;
+}
+
+.service-list li:last-child{
+   margin-bottom: 0;
+}
+
+.service-list li:nth-child(1){
+   background-color: black;
+}
+
+.service-list li:nth-child(even){
+   background-color: black;
+}
+
+.service-list li:nth-child(odd){
+   background-color: orange;
+}
+#portfolio-list li {
+   background-color: beige;
+}
+
+
+p.color{
+   color: #0000ff;
+   /* background-color: rgb(3, 50, 80); */
+   /* background-color: rgba(3, 50, 80, 1); */
+   background: linear-gradient(to right, red, blue, yellow);
+}
