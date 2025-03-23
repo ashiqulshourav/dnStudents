@@ -1,0 +1,39 @@
+.span {
+  /* display: block; */
+  /* display: inline-block; */
+
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div:hover {
+  /* display: inline; */
+  display: inline;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+a {
+  font-size: 40px;
+}
+a:link {
+  margin-left: 10px;
+}
+
+a:visited {
+  /* color: orange;
+  background-color: red; */
+}
+
+ul:hover a {
+  /* background-color: red; */
+}
+
+a:active {
+  text-decoration: none;
+}
