@@ -37,3 +37,45 @@ ul:hover a {
 a:active {
   text-decoration: none;
 }
+
+p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  color: blue;
+  font-size: 40px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  border: 1px solid red;
+  background-color: blue;
+}
+
+input:focus-visible {
+  background-color: aqua;
+}
+
+input:focus-within {
+  background-color: yellow;
+}
+
+p::before {
+  /* content: ""; */
+  /* content: "test before"; */
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block;
+}
+
+p::after {
+  content: "test after";
+}
