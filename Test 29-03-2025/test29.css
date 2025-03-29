@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+header{
+    background-color: aliceblue;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+}
+
+header ul {
+    
+    list-style:none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.element{
+    margin-bottom: 20px;
+}
+
+.elements{
+    padding: 40px 20px 20px 20px;
+}
+
+.elements .element:first-child{
+    padding-top: 20px;
+}
+
+.element p{
+    /* text-align: justify; */
+}
+
+.sticky{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: aquamarine
+    ;
+
+    position: sticky;
+    top: 40px;
+}
+
+.chat{
+    width: 40px;
+    height: 40px;
+    background-color: #25D366;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    cursor: pointer;
+
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+.chat i{
+    color: white;
+    font-size: 30px;
+}
