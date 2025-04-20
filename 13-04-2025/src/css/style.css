@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 .container {
   width: 100%;
   height: auto;
@@ -69,6 +72,8 @@
 }
 .contact-info {
   padding-bottom: 11px;
+  display: flex;
+  align-items: center;
 }
 .contact-info i {
   color: #e5057f;
