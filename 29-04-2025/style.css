@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.outer-title {
+  background-image: url(https://brokerdata.tech/wp-content/uploads/2022/05/single_banner.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-title {
+  padding: 10px 0;
+  min-height: 130px;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-title h2 {
+  font-size: 45px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.get-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 40px 0;
+  position: relative;
+}
+
+.get-content h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #414e5c;
+  padding-bottom: 25px;
+}
+
+.get-content h3 span {
+  color: #1a93d2;
+}
+
+.get-content-left {
+  padding-right: 344px;
+}
+
+.get-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(65, 78, 92, 0.8);
+  padding-bottom: 30px;
+}
+
+.person-box {
+  background-image: url(https://brokerdata.tech/wp-content/uploads/2022/06/bgr_contact_person.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: -130px;
+  width: 304px;
+  padding: 40px 23px 20px 23px;
+  /* height: 347px; */
+
+  box-shadow: 0px 33px 20px -30px rgba(0, 30, 48, 0.051);
+  border-radius: 0 0 8px 8px;
+}
+
+.person-img {
+  display: flex;
+  justify-content: center;
+}
+
+.person-box img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.person-box h4 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+.person-box h4 span {
+  color: #aed6ee;
+}
+
+.person-box h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.links .link {
+  padding-bottom: 5px;
+}
+
+.link i {
+  width: 21px;
+  font-size: 21px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s all ease;
+  z-index: 1;
+}
+
+.link a::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s all ease;
+  z-index: -1;
+}
+
+.link a:hover::after {
+  height: 100%;
+}
+.link a:hover {
+  color: #1a93d2;
+}
